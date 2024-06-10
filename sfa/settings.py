@@ -178,7 +178,7 @@ MIDDLEWARE = [
     # other middleware
 ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  # React development server
+    'https://fyp-frontend-iota.vercel.app'  # React development server
 ]
 
 CORS_ALLOW_METHODS = [
