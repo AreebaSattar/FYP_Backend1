@@ -1,0 +1,79 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual Environment
+venv/
+ENV/
+env/
+venv.bak/
+
+# Django specific
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+instance/
+.media/
+.static/
+*.pyc
+
+# If using a sqlite3 database
+*.sqlite3
+
+# Local environment settings
+.env
+local_settings.py
+
+# Django migration files
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*~
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
