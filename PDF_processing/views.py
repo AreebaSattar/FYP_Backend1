@@ -536,7 +536,7 @@ def perform_sentiment_analysis(unique_comments):
     print("/////////////////////////THE ONES BEING SENT/////////////////////")
     print(global_comments_to_be_sent)
     # Set your OpenAI API key
-    openai.api_key = "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"
+    # openai.api_key = "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"
 
     # Your result_array and formatted_comments logic here...
    # print("In function")
